@@ -12,7 +12,7 @@ struct DataItem: Identifiable {
     let value: CGFloat
     let color: Color
     
-    static func generateRandomDataItem(equalized to: CGFloat) -> DataItem {
+    static func generateRandomDataItem(equalized to: CGFloat = 100, with color: Color = .green) -> DataItem {
         return DataItem(
             value: CGFloat
                 .random(in: 1...1000)
@@ -22,7 +22,7 @@ struct DataItem: Identifiable {
                     from: 1,
                     to: to
                 ),
-            color: .green   // .rainbow.randomElement()!
+            color: color   // .rainbow.randomElement()!
         )
     }
 }

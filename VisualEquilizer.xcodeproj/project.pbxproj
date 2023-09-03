@@ -15,6 +15,7 @@
 		0FAE2E4C2AA45EEA007E4D95 /* Equilizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAE2E4B2AA45EEA007E4D95 /* Equilizer.swift */; };
 		0FAE2E4E2AA4641A007E4D95 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAE2E4D2AA4641A007E4D95 /* Color+Extension.swift */; };
 		0FAE2E522AA465DC007E4D95 /* DataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAE2E512AA465DC007E4D95 /* DataItem.swift */; };
+		0FAE2E542AA492E7007E4D95 /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAE2E532AA492E7007E4D95 /* ButtonsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		0FAE2E4B2AA45EEA007E4D95 /* Equilizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equilizer.swift; sourceTree = "<group>"; };
 		0FAE2E4D2AA4641A007E4D95 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		0FAE2E512AA465DC007E4D95 /* DataItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataItem.swift; sourceTree = "<group>"; };
+		0FAE2E532AA492E7007E4D95 /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				0FAE2E4B2AA45EEA007E4D95 /* Equilizer.swift */,
+				0FAE2E532AA492E7007E4D95 /* ButtonsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				0FAE2E4E2AA4641A007E4D95 /* Color+Extension.swift in Sources */,
 				0FAE2E3C2AA45E7A007E4D95 /* ContentView.swift in Sources */,
 				0FAE2E492AA45ECD007E4D95 /* BinaryFloatingPoint+Extension.swift in Sources */,
+				0FAE2E542AA492E7007E4D95 /* ButtonsView.swift in Sources */,
 				0FAE2E522AA465DC007E4D95 /* DataItem.swift in Sources */,
 				0FAE2E3A2AA45E7A007E4D95 /* VisualEquilizerApp.swift in Sources */,
 			);
